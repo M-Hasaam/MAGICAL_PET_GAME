@@ -3,9 +3,21 @@
 
 ---
 
+## 📹 Live Gameplay Preview
+
+<p align="center">
+  <a href="https://youtu.be/YivBjiV_ih8" target="_blank">
+    <img src="https://img.youtube.com/vi/YivBjiV_ih8/hqdefault.jpg" alt="Magical Pet Kingdom Demo" width="500"/>
+  </a>
+</p>
+
+> 🔥 *Watch dragons clash, phoenixes revive, and guilds go to war!*
+
+---
+
 ## 🎮 Introduction
 
-**Magical Pet Kingdom** is an immersive fantasy-themed game developed using **C++ and SFML**, where players adopt magical creatures, train them, battle in different formats, and manage strategy-driven guilds. Designed as part of an Object-Oriented Programming course, this game blends RPG elements, tactical decision-making, and graphical interaction to create a rich gameplay experience.
+**Magical Pet Kingdom** is an immersive fantasy-themed game developed using **C++ and SFML**, where players adopt magical creatures, train them, battle in different formats, and manage strategy-driven guilds. Designed as part of an Object-Oriented Programming course, this game blends RPG elements, tactical decision-making, AI-based opponents, and graphical interaction to create a rich gameplay experience.
 
 Whether you're training a fierce Dragon or battling in the Arena with a Phoenix, this world is yours to conquer!
 
@@ -45,6 +57,18 @@ Experience thrilling battles with real-time decision-making and action:
 - 🔹 **Power-Ups** – Buffs appear during battle (damage, shield, health boost)
 
 Navigate through dynamic arenas filled with **walls**, **traps**, and other environmental challenges.
+
+---
+
+### 🧠 Intelligent Enemy AI
+
+Enemies aren't static—**they chase and adapt**!  
+Using basic pathfinding logic, the AI dynamically reacts based on:
+- Player location
+- Obstacles
+- Arena layout
+
+Expect enemies to **strategically follow, flank, or corner you**—bringing real tactical depth.
 
 ---
 
@@ -90,6 +114,7 @@ Items can be used **strategically** in tough battles to turn the tide!
 - ✅ **Exception Handling** (e.g., input errors, file access)
 - ✅ **File I/O** (Save/load system)
 - ✅ **SFML Graphics, Audio & Window Management**
+- ✅ **AI Movement System** (Enemies follow players based on real-time location)
 
 ---
 
@@ -98,7 +123,6 @@ Items can be used **strategically** in tough battles to turn the tide!
 > 🎯 *No coding or installation needed! Just click and play.*
 
 ### 📦 Steps:
-
 
 1. **Download the ZIP** of the project from [Google Drive/Repository/etc.].
 2. **Extract** the folder anywhere on your computer.
@@ -109,48 +133,7 @@ Items can be used **strategically** in tough battles to turn the tide!
 
 > 💡 If it doesn't open, install [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)
 
----
 
-## 📂 Project Folder Structure
-
-```
-Magical_Pet_clean/
-├── Data/                      # Saved progress, game data
-├── Font/                      # Fonts used in UI
-├── Images/                    # Pet sprites, UI graphics
-├── Music/                     # Background music and sound effects
-├── Animations.h               # Animation control
-├── Battle.h                   # Battle mechanics
-├── Bot.h                      # AI logic
-├── D_Pets.cpp                 # Derived pet class implementations
-├── Filling.cpp / .h           # Data population, initial setup
-├── ForwardDeclarations.h      # Shared headers
-├── Guild.h                    # Guild formation and battle
-├── Helper.cpp / .h            # Utility functions
-├── Magical_Pet_Kindom_Game.exe # 💥 Executable to run the game
-├── Menu.cpp / .h              # Game main menu and flow
-├── Object.cpp / .h            # Base game object class
-├── Pet.cpp / .h               # Core pet logic and stats
-├── Player.h                   # Player and user data
-├── Projectiles.cpp / .h       # Projectile logic and movement
-├── Ring.cpp                   # Arena logic
-├── Shop.h                     # Item purchase system
-├── Training.h                 # Pet training code
-├── Source.cpp                 # Main entry point (if compiled)
-├── *.dll                      # SFML libraries required at runtime
-└── README.md                  # This file
-```
----
-
-## 📹 Gameplay Demo
-
-<p align="center">
-  <a href="https://youtu.be/Wbz8zM_5iCc?si=8pIMXXoi2F3_wqlj">
-    <img src="https://img.youtube.com/vi/Wbz8zM_5iCc/hqdefault.jpg" alt="Magical Pet Kingdom Demo" width="500"/>
-  </a>
-</p>
-
-> Want to create your own video? Try using **OBS Studio** for screen recording.
 
 ---
 
@@ -171,5 +154,3 @@ This project is developed for academic and learning purposes only.
 ---
 
 🌟 *Thank you for exploring Magical Pet Kingdom. May your pets rise and reign!*
-
-
