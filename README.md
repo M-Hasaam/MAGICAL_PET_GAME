@@ -144,10 +144,12 @@ Magical_Pet_clean/
 
 ## 📹 Gameplay Demo
 
-🎥 **[Watch the Game Trailer / Demo Here](https://youtu.be/Wbz8zM_5iCc?si=8pIMXXoi2F3_wqlj)**  
-*A quick showcase of Magical Pet Kingdom's features, battles, and interface.*
+<p align="center">
+  <a href="https://youtu.be/Wbz8zM_5iCc?si=8pIMXXoi2F3_wqlj">
+    <img src="https://img.youtube.com/vi/Wbz8zM_5iCc/hqdefault.jpg" alt="Magical Pet Kingdom Demo" width="500"/>
+  </a>
+</p>
 
-> 💡 Tip: Watch in 1080p for the best experience.
 > Want to create your own video? Try using **OBS Studio** for screen recording.
 
 ---
